@@ -166,6 +166,12 @@
     text-align: left;
 }
 
+.Notion_P .page-body .code th,
+.Notion_P .page-body .code td {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
 .Notion_P .page-body th {
     color: rgba(55, 53, 47, 0.6);
 }
@@ -352,6 +358,20 @@
     text-align: center;
 }
 
+
+.Notion_P .page-body .code {
+    padding: 0;
+    border: 0;
+    border-radius: 3px;
+    font-size: 85%;
+    tab-size: 2;
+}
+
+.Notion_P .page-body .code > code {
+    padding: 1.5em 1em;
+    font-size: 100%;
+}
+
 .Notion_P .page-body blockquote {
     font-size: 1.25em;
     font-style: normal;
@@ -417,6 +437,12 @@
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
         "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji",
         "Segoe UI Symbol";
+}
+
+.Notion_P .page-body .code,
+.Notion_P .page-body code {
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier,
+        monospace;
 }
 
 .Notion_P .page-body .serif {
